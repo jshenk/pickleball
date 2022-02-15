@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth	">
+  <head>
+    <meta charset="utf-8" />
+    <title>Basic HTML/Tailwind starter</title>
+    <meta name="description" content="Basic HTML/Tailwind starter" />
+    <meta name="author" content="Daily Dev Tips" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+    <!-- <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet"> -->
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+
+  </head>
+  <body>
+<!-- This example requires Tailwind CSS v2.0+ -->
+<div class="relative bg-gray-50">
+  <div class="relative bg-white shadow">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      <div class="flex justify-between items-center py-6 md:justify-start md:space-x-10">
+        <div class="flex justify-start items-center lg:w-0 lg:flex-1">
+          <a href="#">
+            <span class="sr-only">Workflow</span>
+            <img class="h-8 w-auto sm:h-10" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg" alt="">
+          </a>
+          <nav class="hidden md:flex space-x-10 lg:ml-10">
+
+
+            <a href="#programs" class="text-base font-medium text-gray-500 hover:text-gray-900">Programs </a>
+            <a href="#clinics" class="text-base font-medium text-gray-500 hover:text-gray-900">Clinics </a>
+            <a href="#private" class="text-base font-medium text-gray-500 hover:text-gray-900"> Private Lessons </a>
+            <a href="#about" class="text-base font-medium text-gray-500 hover:text-gray-900"> About </a>
+  
+          </nav>
+        </div>
+        <div class="-mr-2 -my-2 md:hidden">
+          <button type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-expanded="false">
+            <span class="sr-only">Open menu</span>
+            <!-- Heroicon name: outline/menu -->
+            <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+        </div>
+
+
+      </div>
+    </div>
+
+    <div class="absolute top-0 inset-x-0 z-10 p-2 transition transform origin-top-right md:hidden">
+      <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
+
+        <div class="py-6 px-5 space-y-6">
+          <div class="grid grid-cols-2 gap-y-4 gap-x-8">
+            <a href="#programs" class="text-base font-medium text-gray-900 hover:text-gray-700"> Programs </a>
+            <a href="#clinics" class="text-base font-medium text-gray-900 hover:text-gray-700">Clinics </a>
+            <a href="#private" class="text-base font-medium text-gray-900 hover:text-gray-700"> Private Lessons </a>
+
+            <a href="#about" class="text-base font-medium text-gray-900 hover:text-gray-700"> About </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main class="lg:relative">
+    <div class="mx-auto max-w-6xl w-full pt-16 pb-20 text-center lg:py-48 lg:text-left">
+      <div class="px-4 lg:w-1/2 sm:px-8 xl:pr-16">
+        <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
+          <span class="block xl:inline">Artful Pickleball</span>
+          <span class="block text-indigo-600 xl:inline">Acadamy</span>
+        </h1>
+        <p class="mt-3 max-w-md mx-auto text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
+
+      </div>
+    </div>
+    <div class="relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full">
+      <img class="absolute inset-0 w-full h-full object-cover" src="./assets/frankie-lopez-dA68yigQgSQ-unsplash.jpg" alt="">
+    </div>
+  </main>
+</div>  
+<!-- Programs -->
+<div class="mx-auto max-w-6xl w-full pt-32 pb-20 text-center lg:text-left">
+  <!-- <div class="uppercase text-indigo-700 text-center font-semibold">Clinics | Group Play</div> -->
+  <h2 class="text-center text-4xl mb-20 font-bold" id="programs">Programs</h2>
+  <div class="max-w-3xl">
+    <h3 class="font-semibold mb-2 text-xl">Saturday Pickleball Extraveganzas</h3>
+    <p class="lg:ml-6">A great way to enjoy the fun, fitness and friendships of pickleball at all levels of play from a first timer to highly competitive on courts allocated based on sign up for the level of play that suits you best:
+    <ul class="list-disc list-inside mb-10 lg:pl-6">
+      <li>    Adults (ages 18+)
+      </li>
+      <li>    Must sign up in advance  No drop ins.
+      </li>
+      <li>Fee payable at start of the session in Cash (exact change) or Venue (preferred).</li>
+    </ul>
+    </p>
+  </div>
+
+  <div class="grid lg:grid-cols-3 gap-5">
+    <div class="max-w-sm rounded overflow-hidden shadow-lg flex flex-col p-6 items-start">
+      <span class="bg-yellow-700 px-3 text-sm text-white uppercase w-auto mb-2 -ml-6">Group Play</span>
+
+        <div class="font-bold text-xl mb-2">First Timers / Beginners</div>
+        <p class="text-gray-700 text-base mb-3">
+          Learn the basic skills, rules and how to play. Instructor will have first timers playing in 30 minutes with instruction on the basics and follow-on coaching tips for the rest of the session’s doubles play. All equipment will be provided.        
+         </p>
+
+         <div class="mt-auto">
+          <p class="font-bold">Session 1: 5:00 - 6:30pm</p>
+          <p class="font-bold">Session 2: 6:30 – 8:00pm</p>
+          <p class="mt-3 uppercase text-gray-600 text-sm">Details: 
+          </p>
+          <ul class="list-disc list-inside text-gray-600 text-sm">
+           <li>1.5 hours</li>
+           <li>$35/player</li>
+           <li>4 min on one court up to 8 on two courts</li>
+         </ul>
+         <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10 mt-5"> Register </a>
+
+         </div>
+    </div>
+    <div class="max-w-sm rounded overflow-hidden shadow-lg flex flex-col p-6 items-start">
+      <span class="bg-yellow-700 px-3 text-sm text-white uppercase w-auto mb-2 -ml-6">Group Play</span>
+        <div class="font-bold text-xl mb-2">Casual / Non- Competitive</div>
+        <p class="text-gray-700 text-base mb-3">
+          Ideal for those desiring a recreational and social atmosphere for play. Must know how to play doubles and how to keep scope.  All levels and abilities are welcome.      
+         </p>
+
+         <div class="mt-auto">
+          <p class="font-bold">Session 1: 5:00 - 7:00pm</p>
+          <p class="font-bold">Session 2: 7:00 – 9:00pm</p>
+          <p class="mt-3 uppercase text-gray-600 text-sm">Details: 
+          </p>
+          <ul class="list-disc list-inside text-gray-600 text-sm">
+           <li>2 hours</li>
+           <li>$15/player</li>
+           <li>12 min on two courts up to 16 on two courts</li>
+         </ul>
+         <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10 mt-5"> Register </a>
+
+         </div>
+    </div>
+    <div class="max-w-sm rounded overflow-hidden shadow-lg flex flex-col p-6 items-start">
+      <span class="bg-yellow-700 px-3 text-sm text-white uppercase w-auto mb-2 -ml-6">Group Play</span>
+        <div class="font-bold text-xl mb-2">Highly-Competitive</div>
+        <p class="text-gray-700 text-base mb-3">
+          Mixed partner challenge courts (winning team stays), winners  stay and split, 4 on 4 off whatever is the preference of those signed up for the session.       
+         </p>
+         <div class="mt-auto">
+          <p class="font-bold">Session 1: 5:00 - 8:00pm</p>
+
+          <p class="mt-3 uppercase text-gray-600 text-sm">Details: 
+          </p>
+          <ul class="list-disc list-inside text-gray-600 text-sm">
+           <li>3 hours</li>
+           <li>$15/player</li>
+           <li>12 min on two courts up to 16 on two courts</li>
+         </ul>
+         <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10 mt-5"> Register </a>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Clinics -->
+<div id="clinics">
+  <h2 class="text-center text-4xl mb-20 font-bold">Clinics</h2>
+
+  <div class="bg-indigo-100 py-20">
+    <div class="mx-auto max-w-6xl flex">
+      <div class="lg:w-1/2 lg:pr-16">
+        <img src="./assets/Pickleball_Players.jpg" alt="pickleball players">
+      </div>
+
+      <div class="lg:w-1/2">
+        <div class="shadow rounded bg-white p-10">
+          <span class="bg-green-800 px-3 text-white uppercase text-sm">Clinic</span>
+          <h5 class="font-bold text-3xl mb-2 text-gray-800">Beginner Night Out</h5>
+          <p class="text-gray-800 mb-5">Learn the basics of the game as we introduce you to the strokes of pickleball, rules, and scoring. All equipment is provided.</p>
+
+          <ul class="text-gray-700 text-md list-inside list-disc mb-10">
+            <li>$150 for 6 sessions ($25/session)</li>
+            <li>6 consecutive weeks, 1.5 hours per session</li>
+            <li>Adults (ages 18+)</li>
+            <li>Friday Evenings 7:30 to 9pm</li>
+          </ul>
+          <div class="grid grid-cols-2">
+            <div class="font-bold mr-5 text-gray-900">Spring I</div>
+            <div>March 18th – April 22nd</div>
+          </div>
+          <div class="grid grid-cols-2">
+            <div class="font-bold mr-5 text-gray-900">Spring II</div>
+            <div>April 29th – June 3rd</div>
+          </div>
+          <div class="grid grid-cols-2">
+            <div class="font-bold mr-5 text-gray-900">Fall I</div>
+            <div>August 26 – September 30</div>
+          </div>
+          <div class="grid grid-cols-2">
+            <div class="font-bold mr-5 text-gray-900">Fall II</div>
+            <div>October 7 – November 11</div>
+          </div>
+          <div class="grid grid-cols-2">
+            <div class="font-bold mr-5 text-gray-900">Winter</div>
+            <div>January 13– February 17</div>
+          </div>
+            <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10 mt-5"> Register </a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Level of play  -->
+<div class="mx-auto max-w-6xl w-full pt-8 pb-20 text-center lg:py-32 lg:text-left flex">
+
+  <div class="w-full lg:w-1/2">
+    <div class="p-10 shadow rounded bg-white">
+      <div class="w-full">    
+        <span class="bg-green-800 px-3 text-white uppercase text-sm">Clinic</span>
+
+        <h5 class="font-bold text-3xl mb-2 text-gray-800">Skills and Drills</h4>
+        <p class="text-gray-800 mb-5">When you sign up, <i>please indicate in the comment box what level of player you are</i>  so Art can best prepare for the session.</p>
+      </div>
+  
+      <div class="w-full">    
+        <div class="mb-4">
+          <h3 class="text-lg mb-2 text-gray-900 font-semibold">Advanced Beginner</h3>
+          <p class="text-gray-700">Looking to take the basic strokes, shot making, positioning and strategy to a new level of confidence that comes through drilling not by just playing games.</p>
+        </div>
+        <div class="mb-4">
+          <h3 class="text-lg mb-2 text-gray-900  font-semibold">Intermediate</h3>
+          <p class="text-gray-700">Have all the basic shots but realize the importance of proper technique and purposeful practice / drilling that through repetition results in muscle memory and confident play.
+          </p>
+        </div>
+        <div>
+          <h3 class="text-lg mb-2 text-gray-900 font-semibold">Advanced</h3>
+          <p class="text-gray-700">Have all the basic and advance strokes and drilling is part of your weekly play.  Looking for other like-minded players.</p>
+        </div>
+      </div>
+      <a href="#" class="mt-5 flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> Register </a>
+
+    </div>
+  </div>
+  <div class="w-full lg:w-1/2 lg:pl-16 lg:pt-10">
+    <p class="mb-5 text-xl">Weekly "Skills and Drills" clinics are ideal for players wanting to take their game to the next level.</p>
+    <ul class="grid lg:grid-cols-2 mb-10 gap-2">
+      <li class="flex "> <img class="mr-2" src="./icons/check-solid.svg" height="16px" width="16px" alt="check">Dinking</li>
+      <li class="flex "> <img class="mr-2" src="./icons/check-solid.svg" height="16px" width="16px" alt="check">Third shot drives and drops</li>
+      <li class="flex "> <img class="mr-2" src="./icons/check-solid.svg" height="16px" width="16px" alt="check">Serves</li>
+      <li class="flex "> <img class="mr-2" src="./icons/check-solid.svg" height="16px" width="16px" alt="check">Service returns,</li>
+      <li class="flex "> <img class="mr-2" src="./icons/check-solid.svg" height="16px" width="16px" alt="check">Overheads/lobs</li>
+      <li class="flex "> <img class="mr-2" src="./icons/check-solid.svg" height="16px" width="16px" alt="check">Blocking the ball from a banger</li>
+      <li class="flex "> <img class="mr-2" src="./icons/check-solid.svg" height="16px" width="16px" alt="check">Positioning on the court</li>
+      <li class="flex "> <img class="mr-2" src="./icons/check-solid.svg" height="16px" width="16px" alt="check">Game strategies</li>
+    </ul>
+    <p class="text-gray-900 font-semibold"> Option 1 Advanced Beginner (Mon, Tue, Thu Wed or Fri):</p>
+    <p class="mb-5 text-gray-700">$20/hour/player (min 4 players on one court up to 8 players on two courts ). Focus is on skill and strategy development as a whole group.  Cost includes court rental.
+    </p>
+    <p class="text-gray-900 font-semibold">Option 2 Your Choice</p>  
+    <p class="text-gray-700"> Contact Art to schedule a time of your choosing for your group of 4 to 8.  Or schedule a private semi-priviate lesson.  Cost to be determined based on peak or off peak rental rates and number of players. </p>
+  </div>
+
+
+
+</div>
+
+</div>
+
+<!-- Competitive -->
+<div class="mx-auto max-w-6xl pb-20" id="private">
+  <h2 class="text-center text-4xl mb-20 font-bold">Other Offerings!</h2>
+  <div class="grid lg:grid-cols-3 gap-5">
+    <div class="bg-gray-100 p-6 flex flex-col rounded">
+      <h3 class="font-bold text-xl mb-2">Pickleball Leagues</h3>
+      <p class="uppercase text-sm text-gray-700">$60 for 6 sessions</p>
+      <p class="uppercase text-sm text-gray-700 mb-2">February 16 – March 23 (12pm to 2pm)</p>
+      <p>Organized for players of all levels, Beginner to Advanced.</p>  
+      <a href="#" class="mt-auto w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> Register </a>
+
+    </div>
+      <div class="bg-gray-100 p-6 flex flex-col rounded">
+      <h3 class="font-bold text-xl mb-2">Pickleball Tournements</h3>
+      <p class="uppercase text-sm text-gray-700">Thursdays</p>
+      <p class="uppercase text-sm text-gray-700 mb-2">6pm Beginners | 7:15pm Intermediate</p>
+      <p>Comming soon!</p>
+      <button disabled href="#" class="mt-auto opacity-50 cursor-not-allowed w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 md:py-4 md:text-lg md:px-10"> Register </button>
+
+    </div>
+    <div class="bg-gray-800 p-6 text-gray-100 flex flex-col rounded" >
+      <h3  class="font-bold text-xl mb-2 text-white">Private Lessons</h3>
+      <p class="uppercase text-sm mb-2 text-gray-400">Pricing Upon Request</p>
+      <p class="mb-5">Prefer more individual attention to learn the sport or take your game to the next level? Private Lessons/Training are available from PPR Certified Instructor Art Shenk
+      </p>
+      
+      <a href="#" class="mt-auto w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> Register </a>
+
+    </div>
+  </div>
+</div>
+
+<!-- About -->
+<div class="bg-gray-800 text-gray-300" id="about">
+  <div class="mx-auto max-w-6xl w-full pt-8 pb-20 lg:py-32">
+    <div class="flex flex-wrap">
+      <div class="w-full lg:w-1/3 lg:pr-16">
+        <img src="./assets/bio.jpeg" alt="art shenk">
+      </div>
+      <div class="w-full lg:w-2/3">
+        <h2 class="font-bold text-3xl mb-5 text-white">Meet Art</h2>
+
+        <p class="mb-5">
+          Art has been playing pickleball since Nov 2017.  He is a <a href="https://pprpickleball.org/" target="_blank" class="underline">Pickleball Professional Registry (PPR) Certified Coach / Instructor</a> 
+          and a local <a href="https://www.gaithersburgpickleballclub.com/about-art-shenk---facilitator.html" target="_blank" class="underline">USA Pickleball ambassador </a> for Montgomery County.
+        </p>
+        <p class="mb-5">
+          He finds pickleball a unique sport for all ages that uses very basic racket / paddle skills that are easy to learn often adapted from a variety of sports previously played including table tennis, racketball, badmitten and / or tennis. 
+
+        </p>
+        <p class="mb-5">
+          He enjoys playing this active, low physical impact game of skill and strategy.  And finds that it can be played at all levels competitively while being a wonderful way to make new friends.Art is committed to facilitating growth of this fastest growing game in America with a focus on the developing the love for the sport in Gaithersburg Maryland.</p>
+          <a href="mailto:aeshenk@gmail.com" class="inline-block items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10 mt-5"> Contact Art </a>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
